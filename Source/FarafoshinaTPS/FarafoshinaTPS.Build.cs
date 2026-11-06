@@ -25,19 +25,6 @@ public class FarafoshinaTPS : ModuleRules
 
 		PublicIncludePaths.AddRange(new string[] {
 			"FarafoshinaTPS",
-			"FarafoshinaTPS/Variant_Platforming",
-			"FarafoshinaTPS/Variant_Platforming/Animation",
-			"FarafoshinaTPS/Variant_Combat",
-			"FarafoshinaTPS/Variant_Combat/AI",
-			"FarafoshinaTPS/Variant_Combat/Animation",
-			"FarafoshinaTPS/Variant_Combat/Gameplay",
-			"FarafoshinaTPS/Variant_Combat/Interfaces",
-			"FarafoshinaTPS/Variant_Combat/UI",
-			"FarafoshinaTPS/Variant_SideScrolling",
-			"FarafoshinaTPS/Variant_SideScrolling/AI",
-			"FarafoshinaTPS/Variant_SideScrolling/Gameplay",
-			"FarafoshinaTPS/Variant_SideScrolling/Interfaces",
-			"FarafoshinaTPS/Variant_SideScrolling/UI"
 		});
 
 		// Uncomment if you are using Slate UI
