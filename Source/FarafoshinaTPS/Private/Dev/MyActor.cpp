@@ -7,8 +7,20 @@
 AMyActor::AMyActor()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = false;
+	PrimaryActorTick.bCanEverTick = true;
 
+}
+
+
+int AMyActor::ChangeSpeed_Implementation(int Speed)
+{
+	return Speed = 50;
+}
+
+bool AMyActor::AreNumbersEqual(int A, int B, int& Sum)
+{
+	Sum = A + B;
+	return A == B;
 }
 
 // Called when the game starts or when spawned
@@ -22,6 +34,6 @@ void AMyActor::BeginPlay()
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	MyPrintHP();
 }
 
